@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davlat Qidiruv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <select id="colors">
+        <option value="" disabled selected>Qitani tanlang</option>
+        <option value="asia">Asia</option>
+        <option value="europe">Europe</option>
+        <option value="africa">Africa</option>
+        <option value="americas">Americas</option>
+        <option value="oceania">Australia / Oceania</option>
+        <option value="antarctic">Antarctica</option>
+    </select>
+
+    <div class="container">
+
+        <header>
+            <div class="navbar">
+                <nav>
+                    Search any Country you Want
+                    <hr>
+                </nav>
+            </div>
+        </header>
+
+        <div class="search-panel">
+            <input type="text" id="countryInput" placeholder="Davlat nomini yozing">
+            <button onclick="getCountry()">Qidirish</button>
+        </div>
+
+        <div id="result"></div>
+
+        <div class="tun_kun">
+            <button id="dark_white">Theme</button>
+        </div>
+
+    </div>
+
+    <h1>Founder: Bekzod Baratov 2026 ©</h1>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
