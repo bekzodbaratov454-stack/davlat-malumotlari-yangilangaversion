@@ -59,7 +59,10 @@ themeBtn.addEventListener('click', () => {
         ? '<i class="fa-solid fa-sun"></i>'
         : '<i class="fa-solid fa-moon"></i>';
 
-});
+})
+
+
+
 
 const select = document.getElementById("colors");
 
