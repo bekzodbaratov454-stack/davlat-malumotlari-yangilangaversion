@@ -173,3 +173,80 @@ button:hover {
     flex-direction: column;
     align-items: center;
 }
+
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding-top: 40px;
+        max-width: 100%;
+    }
+
+    input,
+    button {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .navbar {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .tun_kun {
+        top: 10px;
+        right: 10px;
+    }
+
+    .tun_kun button {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    .qidirish {
+        margin: 0;
+        width: 100%;
+    }
+
+    #result {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .result-card {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .result-card img {
+        height: 100px;
+    }
+
+    .result-card h2 {
+        font-size: 20px;
+    }
+
+    .result-card p {
+        font-size: 16px;
+    }
+
+    #colors {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .theme {
+        margin-left: 0;
+    }
+
+    .asoschi {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+}
